@@ -1,6 +1,6 @@
 import sqlite3
 import io
-from bottle import Bottle, run, redirect, response
+from bottle import Bottle, run, redirect, response, template
 from PIL import Image
 
 
@@ -15,7 +15,7 @@ for i in range(10):
 
 @app.route('/')
 def index():
-    return redirect('https://github.com/ten1fs/count', 301)
+    return template('index.tpl')
 
 
 @app.route('/hello')
@@ -52,6 +52,7 @@ def count(key):
     data = buffer.getvalue()
     buffer.close()
     response.set_header('Content-Type', 'image/png')
+    response.set_header('Cache-Control', 'max-age=0, no-cache, no-store, must-revalidate')
     return data
 
 
