@@ -1,6 +1,6 @@
 import sqlite3
 import io
-from bottle import Bottle, run, redirect, response, template
+from bottle import Bottle, run, response, template
 from PIL import Image
 
 
