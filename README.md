@@ -35,3 +35,5 @@
 ## 💖 特别鸣谢
 
 [https://replit.com/~](https://replit.com/~)
+
+[![replit](https://replit.com/public/icons/favicon-prompt-192.png)](https://replit.com/@ten1fs/count?v=1)
