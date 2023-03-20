@@ -1,7 +1,8 @@
 <p align="center">
-    <img src="https://count.ten1fs.repl.co/get/@ten1fs.count.readme.md" alt="GitHub Readme Count" />
+    <img src="https://count.ten1fs.repl.co/get/@ten1fs.count.readme.md?v=1" alt="GitHub Readme Count" />
     <h2 align="center">GitHub Readme Count</h2>
 </p>
+
 
 
 
@@ -16,7 +17,7 @@
 
 
 ```html
-<img src="https://count.ten1fs.repl.co/get/@<Github用户名>.<仓库名>.readme.md" alt="GitHub Readme Count" />
+<img src="https://count.ten1fs.repl.co/get/@<Github用户名>.<仓库名>.readme.md?v=1" alt="GitHub Readme Count" />
 ```
 
 
@@ -25,7 +26,7 @@
 
 ```html
 <p align="center">
-    <img src="https://count.ten1fs.repl.co/get/@ten1fs.count.readme.md" alt="GitHub Readme Count" />
+    <img src="https://count.ten1fs.repl.co/get/@ten1fs.count.readme.md?v=1" alt="GitHub Readme Count" />
     <h2 align="center">GitHub Readme Count</h2>
 </p>
 ```
